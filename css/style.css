@@ -1,0 +1,1022 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+main{
+	width: 100vw;
+	max-width: 100vw;
+	height: auto;
+	overflow: auto;
+}
+
+/* NAVBAR, HERO SECTION BELOW */
+
+header{
+	width: 100vw;
+	max-width: 100vw;
+	max-width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: hsla(0,0%,4%,0.8);
+	border-bottom: solid white 2px;
+	z-index: 10;
+}
+
+#logo{
+	width: auto;
+	height: 60px;
+	float: left;
+	margin: 5px 0 5px 0;
+	padding-left: 110px;
+	background: url("../img/adidaswhite.png") no-repeat;
+	background-size: contain;
+	border-right: 3px solid #FFFFFF;
+}
+
+#logo2{
+	
+	width: auto;
+	height: 60px;
+	float: left;
+	margin: 5px 0 5px 20px;
+	padding-left: 160px;
+	background: url("../img/cyclelogopng.png") no-repeat;
+	background-size: contain;
+	
+	
+}
+
+nav a{
+	display: block;
+	float: left;
+	width: 15%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1vw;
+	color: #FFFFFF;
+	margin: auto;
+	transition: 0.6s;
+}
+
+nav a:hover{
+	
+	color: #0B0B0B;
+	background: hsla(0,0%,100%,0.8);
+}
+
+#fb{
+	
+	width: auto;
+	height: 30px;
+	float: right;
+	margin: 20px 0 20px 0;
+	padding: 15px 20px 15px 20px;
+	background: url("../img/face.png") no-repeat;
+	background-size: contain;
+	transition: 0.6s;
+	
+}
+
+#fb:hover{
+	
+	transform: scale(1.1);
+}
+
+#insta{
+	
+	width: auto;
+	height: 30px;
+	float: right;
+	margin: 20px 10px 20px 0;
+	padding: 15px 20px 15px 20px;
+	background: url("../img/insta.png") no-repeat;
+	background-size: contain;
+	transition: 0.6s;
+	
+	
+}
+
+#insta:hover{
+	
+	transform: scale(1.1);
+}
+
+#twitt{
+	
+	width: auto;
+	height: 30px;
+	float: right;
+	margin: 20px 10px 20px 0;
+	padding: 15px 20px 15px 20px;
+	background: url("../img/twitt.png") no-repeat;
+	background-size: contain;
+	transition: 0.6s;
+	
+}
+
+#twitt:hover{
+	
+	transform: scale(1.1);
+	
+}
+
+#hero{
+
+	width: 100vw;
+	max-width: 100vw;
+	height: auto;
+	overflow: hidden;
+	
+}
+
+#hero video{
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100vw;
+  	min-height: 100vh;
+	z-index: 5;
+}
+
+#hero-tagline{
+	position: absolute;
+	top: 62%;
+	left: 5%;
+	font-size: 4vw;
+	font-family: "News Cycle", sans-serif;
+	color: #ffffff;
+	z-index: 8;
+	animation: fadein;
+	animation-duration: 3.5s;
+}
+
+#calltoact{
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	width: 90px;
+	border: 2px solid #FFFFFF;
+	z-index: 8;
+	text-align: center;
+	animation: fadein;
+	animation-duration: 1.5s;
+	transition: 0.6s;
+}
+
+#calltoact:hover{
+	transform: scale(1.1);
+}
+
+#calltoact a{
+	text-decoration: none;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 100;
+	font-size: 1.3vw;
+	color: #FFFFFF;
+	animation: fadein;
+	animation-duration: 1.5s;
+}
+
+#section1{
+
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	background: #0B0B0B;
+	z-index: 4;
+	overflow-y: hidden;
+	
+}
+
+#section1 h1{
+	
+	font-family: "News Cycle", sans-serif;
+	font-size: 3vw;
+	color: #FFFFFF;
+	padding: 100px 0 0 100px;
+}
+
+#section1 p{
+	
+	width: 60vw;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1.3vw;
+	color: #FFFFFF;
+	padding: 60px 0 0 100px;
+}
+
+#section1img{
+	position: absolute;
+	top: 150%;
+	right: 0%;
+	height: 100vh;
+	width: 33vw;
+	background: url("../img/Cyclist-section1.png") no-repeat;
+	background-size: cover;
+	z-index: 8;
+}
+
+#container{
+	
+	position: absolute;
+	top: 56%;
+	left: 13%;
+	height: 5vh;
+	width: 40vw;
+	z-index: 8;
+	
+}
+
+#container img{
+	
+	float: left;
+	height: auto;
+	overflow: auto;
+	width: 30%;
+	transform: scale(0.6);
+	transition: 0.6s;
+	
+}
+
+#container img:hover{
+	transform: scale(0.7);
+}
+
+#label-container{
+	position: absolute;
+	top: 81%;
+	left: 13%;
+	height: 5vh;
+	width: 40vw;
+	z-index: 8;
+	
+	
+}
+
+#label-container h3{
+	
+	float: left;
+	height: auto;
+	overflow: auto;
+	width: 30%;
+	color: #FFFFFF;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1vw;
+	text-align: center;
+}
+
+
+
+#section2{
+
+	position: absolute;
+	top: 200%;
+	left: 0%;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	background: #FFFFFF;
+	z-index: 6;
+	
+}
+
+#section2img{
+	position: absolute;
+	top: 250%;
+	left: 0%;
+	height: 100vh;
+	width: 33vw;
+	background: url("../img/photo-1523828789040-d3c7bab21300.jpg") no-repeat;
+	background-size: cover;
+	z-index: 8;
+}
+
+#section2 h1{
+	
+	font-family: "News Cycle", sans-serif;
+	font-size: 3vw;
+	color: #0B0B0B;
+	padding: 100px 0 0 100px;
+}
+
+#section2 p{
+	
+	width: 60vw;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1.3vw;
+	color: #0B0B0B;
+	padding: 60px 0 0 100px;
+}
+
+#date-time{
+	position: absolute;
+	top: 60%;
+	right: 0%;
+	width: 53vw;
+	height: 160px;
+}
+
+#date-time h3{
+	font-family: "News Cycle", sans-serif;
+	float: left;
+	height: 50%;
+	width: 33%;
+}
+
+#date-time p{
+	font-family: "News Cycle", sans-serif;
+	float: left;
+	height: 50%;
+	width: 33%;
+	padding: 0;
+}
+
+#map{
+	position: absolute;
+	top: 76%;
+	right: 3%;
+	width: 50vw;
+	height: 160px;
+	background: url("../img/map.PNG") no-repeat;
+	background-position: center;
+	border: 1px solid rgba(11,11,11, 0.2);
+}
+
+#section3{
+
+	position: absolute;
+	top: 300%;
+	left: 0%;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	background: #0B0B0B;
+	z-index: 6;
+	
+}
+
+#section3img{
+	position: absolute;
+	top: 375%;
+	right: 0%;
+	height: 100vh;
+	width: 33vw;
+	background: url("../img/photo-1541625810516-44f1ce894bcd.jpg") no-repeat;
+	background-size: cover;
+	z-index: 8;
+}
+
+#section3 h1{
+	
+	position: absolute;
+	top: 0%;
+	right: 54%;
+	font-family: "News Cycle", sans-serif;
+	font-size: 3vw;
+	color: #FFFFFF;
+	padding: 100px 0 0 100px;
+	
+}
+
+#section3 p{
+	
+	position: relative;
+	top: 24%;
+	left: 29%;
+	width: 60vw;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1.3vw;
+	color: #FFFFFF;
+	padding: 60px 0 0 100px;
+}
+
+.stores{
+	position: relative;
+	top: 50%;
+	left: 15%;
+	width: 60vw;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1vw;
+	color: #FFFFFF;
+}
+
+.stores img{
+	float: left;
+	width: 160px;
+	margin: 70px 100px 100px 0;
+}
+
+#section4{
+
+	position: absolute;
+	top: 400%;
+	left: 0%;
+	width: 100vw;
+	max-width: 100%;
+	height: 60vh;
+	max-height: 60vh;
+	background: #FFFFFF;
+	z-index: 7;
+	
+}
+
+#section4 h1{
+	
+	font-family: "News Cycle", sans-serif;
+	font-size: 3vw;
+	color: #0B0B0B;
+	padding: 100px 0 0 100px;
+}
+
+#section4 p{
+	
+	width: 60vw;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1.3vw;
+	color: #0B0B0B;
+	padding: 30px 0 0 100px;
+}
+
+.contactinfo{
+	
+	font-weight: bolder;
+	font-size: 1.2vw;
+}
+
+#section5{
+
+	position: absolute;
+	top: 460%;
+	left: 0%;
+	width: 100vw;
+	max-width: 100%;
+	height: 40vh;
+	max-height: 40vh;
+	background: #0B0B0B;
+	z-index: 7;
+	
+}
+
+#section5 form{
+	height: 100%;
+	max-height: 40%;
+}
+
+#section5 h2{
+	
+	font-family: "News Cycle", sans-serif;
+	font-size: 2vw;
+	color: #FFFFFF;
+	padding: 100px 0 0 100px;
+	
+}
+
+#links{
+	position: absolute;
+	top: 62%;
+	right: 0%;
+	height: 80px;
+	width: 35vw;
+	
+}
+
+#links a{
+	display: block;
+	float: left;
+	width: 25%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1vw;
+	color: #FFFFFF;
+	margin: auto;
+	transition: 0.6s;
+}
+
+#links a:hover{
+	color: #B8B8B8;
+}
+
+#submit{
+	width: 90px;
+	border: 2px solid #FFFFFF;
+	z-index: 8;
+	color: #D9D9D9;
+	text-align: center;
+	margin: 40px 0 0 470px;
+	transition: 0.6s;
+	height: auto;
+	overflow: auto;
+	
+	
+}
+
+#submit a{
+	font-family: "News Cycle", sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#submit a:hover{
+	color: #5A5A5A;
+}
+
+input{
+	font-family: "News Cycle", sans-serif;
+	height: 35px;
+	width: 180px;
+	margin: 40px 0 0 100px; 
+	
+	
+}
+
+/*.animBlock {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: relative;
+  -webkit-transition: all .55s ease-in;
+  -moz-transition: all .55s ease-in;
+  -ms-transition: all .55s ease-in;
+  -o-transition: all .55s ease-in;
+  transition: all .55s ease-in;
+}
+.animBlock[data-position="left"] { left: -20%; }
+.animBlock[data-position="right"] { right: -20%; }
+.animBlock[data-position="top"] { top: -20%;}
+.animBlock[data-position="bottom"] { bottom: -20%;}
+
+.animBlock[data-position="left"].viewed {
+  left: 0%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.animBlock[data-position="right"].viewed {
+  right: 0%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+} */
+
+
+
+
+
+.fadein {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fadein;
+  animation-duration: 2.5s;
+}
+
+
+
+@keyframes fadein {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+
+
+@media (max-width: 1084px){
+	
+
+	nav a{
+	width: 10%;
+	font-size: 1.5vw;
+	}	
+	
+}
+
+@media (max-width: 1024px){
+
+	#hero-tagline{
+
+	font-size: 5vw;
+
+}
+
+#calltoact a{
+
+	font-size: 2vw;
+
+}
+
+	
+	
+	#section1 h1{
+	
+	
+	font-size: 4vw;
+
+}
+
+#section1 p{
+	
+	
+	font-size: 2vw;
+	
+}
+	#section2 h1{
+	
+	
+	font-size: 4vw;
+	
+}
+	
+	
+	#label-container h3{
+		font-size: 2vw;
+	}
+	
+	#section2img{
+
+	top: 260%;
+
+}
+
+#section2 p{
+	
+	
+	font-size: 2vw;
+	
+}
+	
+	#section3 h1{
+	
+	top: 0%;
+	right: 44%;
+	font-size: 4vw;
+	
+	
+}
+
+#section3 p{
+	
+	
+	font-size: 2vw;
+	
+}
+	#section4 h1{
+	
+
+	font-size: 4vw;
+	
+}
+
+#section4 p{
+	
+	
+	font-size: 2vw;
+	padding-bottom: 10px;
+	
+}
+	
+	#container{
+	
+
+	top: 64%;
+
+	
+}
+	.stores{
+		
+	top: 40%;
+	
+		
+	}
+	
+	.stores img{
+
+	margin: 40px 100px 10px 0;
+}
+	.stores h3{
+		font-size: 2vw;
+	}
+	
+	#section5 h2{
+		
+		padding: 50px 0 0 100px;
+	} 
+
+	#links{
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 800px){
+
+	header{
+
+	height: 40px;
+	
+}
+	
+	#logo{
+
+	height: 30px;
+	margin: 5px 0 5px 0;
+	padding-left: 40px;
+	padding-right: 25px;
+
+}
+
+#logo2{
+	
+
+	height: 30px;
+
+	margin: 5px 0 5px 20px;
+	padding-left: 50px;
+}
+	
+	nav a{
+	
+	width: 13%;
+	height: 40px;
+	line-height: 40px;
+
+	font-size: 1.5vw;
+
+}
+	
+	#fb{
+	
+
+	margin: 5px 0 5px 0;
+	
+	
+}
+	
+	#insta{
+	
+	
+	margin: 5px 10px 5px 0;
+	
+}
+	
+	#twitt{
+	
+
+	margin: 5px 10px 5px 0;
+	
+	
+}
+	
+	#map{
+		top:80%;
+		height: 120px;
+	}
+	.stores{
+		top: 40%;
+	left: 15%;
+	}
+	
+	.stores img{
+
+	margin: 30px 80px 10px 0;
+}
+	.stores h3{
+		font-size: 2vw;
+	}
+	
+	#links{
+	position: static;
+
+	height: 40px;
+	width: 100%;
+	
+	
+}
+
+#links a{
+	
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	
+	font-size: 1.5vw;
+	
+}
+	
+	#submit{
+	
+	margin: 30px 0px 0 380px;
+
+	
+	
+}
+	#section5 form{
+	
+	max-height: 45%;
+}
+
+}
+
+@media (max-width: 580px){
+	
+	#logo{
+
+	height: 25px;
+	margin: 10px 0 5px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: none;
+
+}
+
+#logo2{
+	
+
+	height: 25px;
+
+	margin: 15px 0 10px 10px;
+	padding-left: 20px;
+}
+	
+	
+	#fb{
+	
+	transform: scale(0.7);
+	margin: 5px 0 5px 0;
+	
+	
+}
+	
+	#insta{
+	
+	
+	transform: scale(0.7);
+	margin: 5px 0 5px 0;
+	
+}
+	
+	#twitt{
+	
+
+	transform: scale(0.7);
+	margin: 5px 0 5px 0;
+	
+}
+	
+	nav a{
+	
+	width: 12%;
+	padding-left: 10px;
+	font-size: 2vw;
+
+
+}
+	
+	#hero-tagline{
+
+	font-size: 7vw;
+
+}
+
+#calltoact a{
+
+	font-size: 3vw;
+
+}
+
+	
+	
+	#section1 h1{
+	
+	
+	font-size: 5vw;
+
+}
+
+#section1 p{
+	
+	
+	font-size: 3vw;
+	
+}
+	#section2 h1{
+	
+	
+	font-size: 5vw;
+	
+}
+	
+
+	
+	#label-container h3{
+		font-size: 3vw;
+	}
+
+#section2 p{
+	
+	
+	font-size: 3vw;
+	
+}
+	
+	#section3 h1{
+	
+	top: 0%;
+	right: 44%;
+	font-size: 5vw;
+	
+	
+}
+
+#section3 p{
+	
+	
+	font-size: 3vw;
+	
+}
+	#section4 h1{
+	
+
+	font-size: 5vw;
+	
+}
+	
+	.stores img{
+	
+	width: 100px;
+	margin: 20px 100px 1px 0px;
+}
+	
+
+#section4 p{
+	
+	
+	font-size: 3vw;
+	
+}
+	
+	#section5 h2{
+		font-size: 3vw;
+	}	
+	
+	#submit{
+		position: absolute;
+		top: 43%;
+		right: 0%;
+	}
+	
+	#section2img{
+
+	top: 270%;
+	}
+	
+	#links a{
+		font-size: 2vw;
+	}
+	
+	
+	
+}
+
+@media (max-width: 360px){
+	nav a{
+	
+	width: 12%;
+	padding-left: 2px;
+	font-size: 2vw;
+
+
+}
+	#fb{
+	
+	padding: 15px 20px 15px 5px;
+	
+	
+}
+	
+	#insta{
+	
+	
+	padding: 15px 20px 15px 5px;
+	
+}
+	
+	#twitt{
+	
+
+	padding: 15px 20px 15px 5px;
+	
+}
+
+}
